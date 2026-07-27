@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Deals - 80% OFF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-top">
+            <div class="brand">
+                <span class="logo-text">Flipkart</span>
+                <span class="explore-plus">Explore <span class="plus-yellow">Plus</span></span>
+            </div>
+            <div class="nav-icons">
+                <button onclick="navigateTo('wishlist')" class="icon-btn">
+                    <i class="fa-regular fa-heart"></i>
+                    <span id="wishlist-badge" class="badge">0</span>
+                </button>
+                <button onclick="navigateTo('cart')" class="icon-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-badge" class="badge">0</span>
+                </button>
+            </div>
+        </div>
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="searchInput" placeholder="Search for products, brands and more..." onkeyup="handleSearch()">
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main id="app-container" class="main-content">
+        <!-- Views dynamically injected here -->
+    </main>
+
+    <!-- Bottom Navigation Bar for Mobile -->
+    <nav class="bottom-nav">
+        <a href="javascript:void(0)" onclick="navigateTo('home')" class="nav-item active" id="nav-home">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="javascript:void(0)" onclick="navigateTo('products')" class="nav-item" id="nav-products">
+            <i class="fa-solid fa-border-all"></i>
+            <span>Products</span>
+        </a>
+        <a href="javascript:void(0)" onclick="navigateTo('wishlist')" class="nav-item" id="nav-wishlist">
+            <i class="fa-solid fa-heart"></i>
+            <span>Wishlist</span>
+        </a>
+        <a href="javascript:void(0)" onclick="navigateTo('cart')" class="nav-item" id="nav-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Cart</span>
+        </a>
+        <a href="javascript:void(0)" onclick="navigateTo('orders')" class="nav-item" id="nav-orders">
+            <i class="fa-solid fa-box"></i>
+            <span>Orders</span>
+        </a>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+</html>
