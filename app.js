@@ -7,7 +7,7 @@ const products = [
         originalPrice: 2995,
         discount: "80% OFF",
         category: "Electronics",
-        image: "/assets/Monitor.jpeg",
+        image: "./assets/Monitor.jpeg",
         specs: ["27 Inch Full HD Display", "2x HDMI, Built-in 6W Speakers", "TÜV Rheinland 4-Star Eye Comfort", "Flicker-Free Technology"],
         link: "https://dl.flipkart.com/dl/dell-s-series-68-58-cm-27-inch-full-hd-led-backlit-ips-panel-2xhdmi-built-in-6w-dual-speakers-tv-rheinland-4-star-eye-comfort-flicker-free-monitor-s2725hsm/p/itm30564131564c1"
     },
@@ -18,7 +18,7 @@ const products = [
         originalPrice: 2995,
         discount: "80% OFF",
         category: "Electronics",
-        image: "/assets/Camon_Camera.png",
+        image: "./assets/Camon_Camera.png",
         specs: ["24.1 MP APS-C CMOS Sensor", "DIGIC 8 Image Processor", "4K 24p Video with Crop", "Compact and Lightweight Body"],
         link: "https://dl.flipkart.com/dl/canon-eos-r100-mirrorless-camera-rf-s-18-45mm-f-4-5-6-3-stm/p/itm3bc65ea11d81b"
     },
@@ -29,7 +29,7 @@ const products = [
         originalPrice: 2995,
         discount: "80% OFF",
         category: "Fashion",
-        image: "/assets/Saari.jpeg",
+        image: "./assets/Saari.jpeg",
         specs: ["Fabric: Heavy Net with Embroidery", "Semi-Stitched Free Size", "Includes Unstitched Blouse Piece", "Matching Net Dupatta Included"],
         link: "https://dl.flipkart.com/dl/trivety-embroidered-semi-stitched-lehenga-choli/p/itmd2ba1da2d9d7f"
     }
